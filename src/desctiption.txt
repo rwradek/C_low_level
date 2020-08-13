@@ -1,0 +1,11 @@
+https://github.com/Apress/low-level-programming
+https://www.apress.com/gp/book/9781484224021
+
+
+skonczone str:21
+
+
+kompilacja:
+nasm -felf64 hello.asm -o hello.o
+ld -o hello hello.o
+chmod u+x hello
